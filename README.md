@@ -13,4 +13,12 @@ Built using:
 ---
 
 ## 📁 Project Structure
+Runner_Openai_Agents_SDK_multi_agents/
+│
+├── main.py # Entry point for Chainlit app
+├── .env # Environment variables (e.g. API keys)
+├── agents/ # Custom agent logic and Runner
+│ ├── init.py # Should contain Agent, Runner, etc.
+│ └── (other agent files)
+└── README.md
 
